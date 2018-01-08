@@ -1,0 +1,21 @@
+body {
+    background: #eee;
+}
+
+a {
+    background: #bbb;
+    text-decoration: none;
+    color: #262626;
+    border: 10px solid #bbb;
+    margin: 15px;
+    display: block;
+}
+
+a.dir {
+    background: #999;
+    text-decoration: none;
+    color: #161616;
+    border: 10px solid #999;
+    margin: 15px;
+    margin-left: 40px;
+}
