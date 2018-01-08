@@ -6,8 +6,8 @@ var express = require('express'),
 var jf = require('./jsonutil.js');
 var fs = require('fs');
 
-var social = process.argv[2];
-var port = process.argv[3];
+var social = process.argv[2] || "family";
+var port = process.argv[3] || 3001;
 
 
 users = [];
